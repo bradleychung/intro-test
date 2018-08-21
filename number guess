@@ -1,0 +1,11 @@
+import random
+numberguess = random.randrange (0,10)
+myguess = int(input("what is your guess?"))
+if myguess > numberguess:
+    print ("lower")
+
+if myguess < numberguess:
+    print ("higher")
+
+if myguess == numberguess:
+    print ("you are correct")
