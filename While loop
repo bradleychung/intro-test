@@ -1,0 +1,3 @@
+love_status=""
+while love_status != "n":
+    love_status = input ('Do you love me? y/n')
