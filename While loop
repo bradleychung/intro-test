@@ -1,3 +1,3 @@
 love_status=""
-while love_status != "n":
-    love_status = input ('Do you love me? y/n')
+while love_status != "computer science":
+    love_status = input ('what is your favourite subject?')
