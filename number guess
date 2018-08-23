@@ -1,14 +1,15 @@
 import random
 numberguess = random.randrange (0,10)
-myguess = int(input("what is your guess?"))
-running = True
-while running:
-    if myguess > numberguess:
-      print ("lower")
+myguess = int(input("what is your guess? 1-10"))
 
-    if myguess < numberguess:
-     print ("higher")
-    
-running = False
-if myguess == numberguess:
-     print ("you are correct")
+running=""
+if myguess > numberguess:
+   print ("lower")
+
+if myguess < numberguess:
+   print ("higher")
+
+while running != myguess == numberguess:
+  if myguess == numberguess:
+   print ("you are correct")
+
